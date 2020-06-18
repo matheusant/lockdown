@@ -1,0 +1,31 @@
+body{
+    background: #659999;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f4791f, #659999);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f4791f, #659999); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+h1, h2{
+    color: #fff;
+    font-size: 50px;
+}
+
+.mensagem{
+    border: #fff solid 1px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 7px #000000;
+}
+
+.button{
+    background-color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 14px 28px;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+ .button:hover{
+     background-color: blue;
+     transition: 1s;
+ }
